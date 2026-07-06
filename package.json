@@ -1,0 +1,16 @@
+{
+  "name": "foxyz-login",
+  "version": "1.0.0",
+  "description": "Painel de login e registro para Foxyz Server",
+  "main": "api/auth.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.5.0"
+  },
+  "devDependencies": {
+    "vercel": "^28.16.0"
+  }
+}
